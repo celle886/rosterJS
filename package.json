@@ -1,0 +1,35 @@
+{
+  "name": "rosterjs",
+  "version": "0.0.1",
+  "description": "lightweight job server with ES6",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": { },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celle886/rosterJS.git"
+  },
+  "keywords": [
+    "job",
+    "scheduler",
+    "cron",
+    "timetable",
+    "roster"
+  ],
+  "author": "Marcel Quasnica",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/celle886/rosterJS/issues"
+  },
+  "homepage": "https://github.com/celle886/rosterJS#readme",
+  "dependencies": {
+    "knex": "^0.14.4",
+    "lodash": "^4.17.5",
+    "moment": "^2.20.1",
+    "mysql": "^2.15.0",
+    "request": "^2.83.0"
+  }
+}
